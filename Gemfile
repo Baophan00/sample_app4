@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "2.7.6"
+ruby "2.7.0"
 
 # gem 'bootstrap', '~> 5.2.1'
 # gem 'bootstrap-sass', '3.4.1'
@@ -11,6 +11,7 @@ ruby "2.7.6"
 gem "rails", "~> 7.0.4"
 gem "bootstrap-sass", "~> 3.4.1"
 gem "bcrypt",         "~>3.1.13"
+gem 'sassc-rails'
 
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
@@ -50,7 +51,7 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 # Use Sass to process CSS
-gem "sassc-rails" 
+gem "sassc-rails"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
@@ -81,7 +82,7 @@ group :test do
   gem "webdrivers"
 end
 
-group :production do 
+group :production do
   gem 'pg', '1.1.4'
 end
 

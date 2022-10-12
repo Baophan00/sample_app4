@@ -12,9 +12,10 @@ $gray-medium-light: #eaeaea;
 }
 
 /* universal */
-.container {
-    margin-top: 50px; 
 
+
+.user_info {
+    margin-top:100px;
 }
 
 
@@ -137,6 +138,7 @@ footer {
     ul {
       float: none;
       padding: 0;
+      margin-left: 10px;
 
       li {
         float: none;
